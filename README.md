@@ -1,11 +1,11 @@
 # notebooks
-# ♻️ WasteVision Pipeline – Modular AI for Waste Detection and Analysis
+# WasteVision Pipeline – Modular AI for Waste Detection and Analysis
 
 > Developed at **Esprit School of Engineering** as part of the GitHub Education initiative, this notebook implements a complete, modular AI pipeline for automated waste image analysis using object detection, multimodal inference, and explainable AI techniques.
 
 ---
 
-## 📘 Project Description
+## Project Description
 
 This project, **WasteVision Pipeline**, was created as part of an applied AI engineering course at _Esprit School of Engineering_. It showcases an end-to-end system for detecting and analyzing waste in images using modern AI tools. The notebook performs:
 - Object detection with YOLOv8
@@ -18,7 +18,7 @@ The project is publicly hosted to demonstrate the value of academic innovation t
 
 ---
 
-## 🧠 Pipeline Overview
+## Pipeline Overview
 
 ### 1. **Object Detection (YOLOv8)**
 - Detects objects in the input image.
@@ -55,7 +55,7 @@ The project is publicly hosted to demonstrate the value of academic innovation t
 
 ---
 
-## 🧩 Explainable AI (XAI)
+## Explainable AI (XAI)
 
 ### Object Detection (YOLOv8)
 - **Grad-CAM**: highlights localized class-based features
@@ -70,7 +70,7 @@ The project is publicly hosted to demonstrate the value of academic innovation t
 
 ---
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - Python 3.10+
 - YOLOv8 (Ultralytics)
@@ -82,7 +82,7 @@ The project is publicly hosted to demonstrate the value of academic innovation t
 
 ---
 
-## 🏷️ GitHub Topics
+## GitHub Topics
 
 `YOLOv8` • `object-detection` • `CLIP` • `BLIP` • `LLM` • `XAI` • `waste-detection` • `environmental-AI` • `vision-language-models` • `Esprit-School-of-Engineering` • `GitHub-Education`
 
