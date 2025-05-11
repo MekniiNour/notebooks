@@ -88,6 +88,6 @@ The project is publicly hosted to demonstrate the value of academic innovation t
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 This project was completed at **Esprit School of Engineering** and hosted publicly as part of the GitHub Education for Students program to enhance institutional visibility and promote applied AI research.
