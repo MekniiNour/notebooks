@@ -1,4 +1,3 @@
-# notebooks
 # WasteVision Pipeline – Modular AI for Waste Detection and Analysis
 
 > Developed at **Esprit School of Engineering** as part of the GitHub Education initiative, this notebook implements a complete, modular AI pipeline for automated waste image analysis using object detection, multimodal inference, and explainable AI techniques.
@@ -8,8 +7,8 @@
 ## Project Description
 
 This project, **WasteVision Pipeline**, was created as part of an applied AI engineering course at _Esprit School of Engineering_. It showcases an end-to-end system for detecting and analyzing waste in images using modern AI tools. The notebook performs:
-- Object detection with YOLOv8
-- Attribute inference (material, state, contamination) via CLIP,BLIP and LLMs
+- Object detection with a **custom YOLOv8m model** trained on the **TACO dataset** (achieving **91% accuracy**)
+- Attribute inference (material, state, contamination) via CLIP and LLMs
 - Weight estimation using heuristics
 - Final report generation with LLM synthesis
 - Explainability via Grad-CAM, Eigen-CAM, and token attribution
@@ -20,9 +19,11 @@ The project is publicly hosted to demonstrate the value of academic innovation t
 
 ## Pipeline Overview
 
-### 1. **Object Detection (YOLOv8)**
-- Detects objects in the input image.
-- Outputs: bounding boxes, class labels, confidence scores.
+### 1. **Object Detection (YOLOv8m – Custom)**
+- Trained on the **TACO (Trash Annotations in Context)** dataset
+- Achieved **0.91 accuracy** on validation set
+- Detects waste objects in the input image
+- Outputs: bounding boxes, class labels, confidence scores
 
 ### 2. **Detection Evaluation**
 - **Valid detection**: Known class + confidence ≥ 0.4
@@ -57,7 +58,7 @@ The project is publicly hosted to demonstrate the value of academic innovation t
 
 ## Explainable AI (XAI)
 
-### Object Detection (YOLOv8)
+### Object Detection (YOLOv8m)
 - **Grad-CAM**: highlights localized class-based features
 - **Eigen-CAM**: captures global activation context
 - **Fusion**: combines both for clearer visual explanation
@@ -73,7 +74,7 @@ The project is publicly hosted to demonstrate the value of academic innovation t
 ## Technologies Used
 
 - Python 3.10+
-- YOLOv8 (Ultralytics)
+- **YOLOv8m (custom, trained on TACO)**
 - CLIP (OpenAI)
 - BLIP (Salesforce)
 - LLM (Phi-2 or similar)
@@ -82,9 +83,9 @@ The project is publicly hosted to demonstrate the value of academic innovation t
 
 ---
 
-## GitHub Topics
+##  GitHub Topics
 
-`YOLOv8` • `object-detection` • `CLIP` • `BLIP` • `LLM` • `XAI` • `waste-detection` • `environmental-AI` • `vision-language-models` • `Esprit-School-of-Engineering` • `GitHub-Education`
+`YOLOv8m` • `object-detection` • `TACO-dataset` • `CLIP` • `BLIP` • `LLM` • `XAI` • `waste-detection` • `environmental-AI` • `vision-language-models` • `Esprit-School-of-Engineering` • `GitHub-Education`
 
 ---
 
